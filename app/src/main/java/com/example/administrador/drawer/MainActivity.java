@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         text2.setText("texto 2 en rama modificaciones");
 
 
-        text1.setText("texto en rama modificaciones");
+        text1.setText("texto en rama modificaciones con merge ?????");
         text2.setText("texto 2 en rama modificaciones");
 
     }
