@@ -13,7 +13,16 @@ public class MainActivity extends AppCompatActivity {
 
         TextView text1 = findViewById(R.id.text_uno);
         TextView text2 = findViewById(R.id.text_dos);
-        text1.setText("texto en rama master");
-        
+        text1.setText("texto en rama modificaciones");
+        text2.setText("texto 2 en rama modificaciones");
+
+
+        text1.setText("texto en rama modificaciones");
+        text2.setText("texto 2 en rama modificaciones");
+
+
+        text1.setText("texto en rama modificaciones");
+        text2.setText("texto 2 en rama modificaciones");
+
     }
 }
