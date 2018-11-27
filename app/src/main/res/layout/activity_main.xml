@@ -7,26 +7,40 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/text_uno"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:layout_gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
 
-    <TextView
-        android:id="@+id/text_dos"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="primer commit"
-        android:layout_gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/buttonMostrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="mostrar"
+            android:text="mostrar" />
 
+        <Button
+            android:id="@+id/buttonOcultar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ocultar"
+            android:text="ocultar" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/animado"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="texto"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
 </LinearLayout>
