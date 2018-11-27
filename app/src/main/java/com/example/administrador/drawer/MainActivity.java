@@ -72,5 +72,21 @@ public class MainActivity extends AppCompatActivity {
         layoutAnimado.setLayoutAnimation(controller);
         layoutAnimado.startAnimation(animation);
 
+        /*d;lak;sdlk;slakd;lkasd*/
+
+        animation.setDuration(800);
+        set.addAnimation(animation);
+//        LayoutAnimationController controller = new LayoutAnimationController(set, 0.25f);
+
+        layoutAnimado.setLayoutAnimation(controller);
+        layoutAnimado.startAnimation(animation);
+
+        layoutAnimado.setLayoutAnimation(controller);
+        layoutAnimado.startAnimation(animation);
+
+
+        layoutAnimado.setLayoutAnimation(controller);
+        layoutAnimado.startAnimation(animation);
+
     }
 }
