@@ -78,15 +78,46 @@ public class MainActivity extends AppCompatActivity {
         set.addAnimation(animation);
 //        LayoutAnimationController controller = new LayoutAnimationController(set, 0.25f);
 
-        layoutAnimado.setLayoutAnimation(controller);
-        layoutAnimado.startAnimation(animation);
-
-        layoutAnimado.setLayoutAnimation(controller);
-        layoutAnimado.startAnimation(animation);
 
 
         layoutAnimado.setLayoutAnimation(controller);
         layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+
+        layoutAnimado.setLayoutAnimation(controller);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+
+
+        layoutAnimado.setLayoutAnimation(controller);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+
+        layoutAnimado.setLayoutAnimation(controller);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+
+
+        layoutAnimado.setLayoutAnimation(controller);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+
+        layoutAnimado.setLayoutAnimation(controller);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+        layoutAnimado.startAnimation(animation);
+
 
     }
 }
