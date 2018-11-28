@@ -118,6 +118,10 @@ public class MainActivity extends AppCompatActivity {
         layoutAnimado.startAnimation(animation);
         layoutAnimado.startAnimation(animation);
 
+        layoutAnimado.setLayoutAnimation(controller);
+        layoutAnimado.setLayoutAnimation(controller);
+        layoutAnimado.setLayoutAnimation(controller);
+
 
     }
 }
